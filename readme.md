@@ -1,4 +1,8 @@
-# Env info
+# Vite Template
+
+Vite template with env setup for Vite, tailwind and vitests
+
+## Env info
 
 The environment consists of:
 
@@ -6,7 +10,7 @@ The environment consists of:
 - Tailwind
 - Vitest
 
-# Installation commands
+## Installation commands
 
 <!-- Vite app -->
 
