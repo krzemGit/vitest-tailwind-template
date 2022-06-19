@@ -9,8 +9,11 @@ describe("Counter", () => {
     snapshot = render(<Counter title="Testing" />);
   });
 
+  test("should match the snapshot", () => {
+    expect(snapshot.container).toMatchSnapshot();
+  });
+
   test("should show title all the time", () => {
-    // render(<Counter title="Testing" />);
     expect(screen.getByText(/Testing/i)).toBeDefined();
   });
 

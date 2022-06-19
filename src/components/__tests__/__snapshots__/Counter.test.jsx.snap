@@ -1,0 +1,28 @@
+// Vitest Snapshot v1
+
+exports[`Counter > should match the snapshot 1`] = `
+<div>
+  <div
+    class="flex h-screen"
+  >
+    <h1>
+      Testing
+    </h1>
+    <div
+      class="m-auto"
+    >
+      <div
+        class="text-6xl text-red-600"
+      >
+        0
+      </div>
+      <button
+        class="px-6 py-2 rounded bg-green-800 hover:bg-green-600 text-white"
+        type="button"
+      >
+        count+
+      </button>
+    </div>
+  </div>
+</div>
+`;
